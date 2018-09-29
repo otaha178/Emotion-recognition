@@ -75,3 +75,5 @@ Draw emotions faces next to the detected face.
 # Issues & Suggestions
 
 If any issues and suggestions to me, you can create an [issue](https://github.com/omar178/Emotion-recognition/issues).
+
+If you like this work please help me by giving me some stars.
