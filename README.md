@@ -19,7 +19,6 @@
 <a id="p1"></a> 
 # Description:
 
-> Dataset
 
 However, before we get started, it’s important to understand that as humans, our emotions are in
 a constant fluid state. We are never 100% happy or 100% sad. Instead, our emotions mix together.
