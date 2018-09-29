@@ -39,7 +39,7 @@ Emotion recognition is a technique used in software that allows a program to "re
 
 <a id="p3"></a> 
 # Usage:
-## Demo
+[ Demo]
 -run real_time_video.py
 ## Train
 -run train_emotion_classifier
@@ -51,4 +51,6 @@ Emotion recognition is a technique used in software that allows a program to "re
 I have used [this](https://www.kaggle.com/c/3364/download-all)
 Download it and put the csv in fer2013/fer2013/
 
+# Credits
+[[This work is inspired from this fascinating [work](https://github.com/oarriaga/face_classification) ]]
 
