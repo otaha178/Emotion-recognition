@@ -67,3 +67,6 @@ This work is inspired from this fascinating [work](https://github.com/oarriaga/f
 # Ongoing 
 Draw emotions faces next to the detected face.
 
+# Issues & Suggestions
+
+If any issues and suggestions to me, you can create an [issue](https://github.com/omar178/Emotion-recognition/issues).
