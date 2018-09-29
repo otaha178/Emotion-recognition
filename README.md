@@ -35,8 +35,11 @@ Emotion recognition is a technique used in software that allows a program to "re
 <a id="p2"></a> 
 # Installations:
 -keras
+
 -imutils
+
 -cv2
+
 -numpy
 
 <a id="p3"></a> 
