@@ -17,7 +17,9 @@
 
 
 <a id="p1"></a> 
-# Description:Dataset
+# Description:
+
+> Dataset
 However, before we get started, it’s important to understand that as humans, our emotions are in
 a constant fluid state. We are never 100% happy or 100% sad. Instead, our emotions mix together.
 When experiencing “surprise” we might also be feeling “happiness” (such as a surprise birthday
@@ -41,6 +43,7 @@ Emotion recognition is a technique used in software that allows a program to "re
 # Usage:
 > Demo
 -run real_time_video.py
+
 > Train
 -run train_emotion_classifier
 
