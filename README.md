@@ -46,6 +46,7 @@ Emotion recognition is a technique used in software that allows a program to "re
 # Usage:
 > Demo
 -run real_time_video.py
+You can just use this with the provided pretrained model i have included in the path written in the code file
 
 > Train
 -run train_emotion_classifier
