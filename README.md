@@ -15,6 +15,7 @@
 
 
 
+
 <a id="p1"></a> 
 # Description:
 
@@ -60,6 +61,8 @@ You can just use this with the provided pretrained model i have included in the 
 
 I have used [this](https://www.kaggle.com/c/3364/download-all)
 Download it and put the csv in fer2013/fer2013/
+-fer2013 emotion classification test accuracy: 66%
+
 
 # Credits
 This work is inspired from this fascinating [work](https://github.com/oarriaga/face_classification) 
