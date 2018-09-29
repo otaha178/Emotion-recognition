@@ -60,7 +60,9 @@ You can just use this with the provided pretrained model i have included in the 
 # Dataset:
 
 I have used [this](https://www.kaggle.com/c/3364/download-all)
+
 Download it and put the csv in fer2013/fer2013/
+
 -fer2013 emotion classification test accuracy: 66%
 
 
