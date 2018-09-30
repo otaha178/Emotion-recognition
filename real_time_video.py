@@ -16,9 +16,9 @@ EMOTIONS = ["angry" ,"disgust","scared", "happy", "sad", "surprised",
  "neutral"]
 
 
-feelings_faces = []
-for index, emotion in enumerate(EMOTIONS):
-    feelings_faces.append(cv2.imread('emojis/' + emotion + '.png', -1))
+#feelings_faces = []
+#for index, emotion in enumerate(EMOTIONS):
+   # feelings_faces.append(cv2.imread('emojis/' + emotion + '.png', -1))
 
 # starting video streaming
 cv2.namedWindow('your_face')
