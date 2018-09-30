@@ -20,14 +20,11 @@
 # Description:
 
 
-However, before we get started, it’s important to understand that as humans, our emotions are in
-a constant fluid state. We are never 100% happy or 100% sad. Instead, our emotions mix together.
-When experiencing “surprise” we might also be feeling “happiness” (such as a surprise birthday
-party) or “fright” (if the surprise is not a welcome one). And even during the “scared” emotion, we
+However, before we get started, it’s important to understand that as humans. We are never 100% happy or 100% sad. Instead, our emotions mix together.
+When experiencing “surprise” we might also be feeling “happiness” or “fright”. And even during the “scared” emotion, we
 might feel hints of “anger” as well.
-When studying emotion recognition, it’s important to not focus on a single class label (as we
-sometimes do in other classification problems). Instead, it’s much more advantageous for us to
-look at the probability of each emotion and characterize the distribution.
+When studying emotion recognition, it’s important to not focus on a single class label. Instead, it’s much more advantageous for us to
+look at the probability of each emotion and demonstrate it to see how a person is happy, frightened, sad, disgust and even surprised .
 ## What does Emotion Recognition mean?
 
 Emotion recognition is a technique used in software that allows a program to "read" the emotions on a human face using advanced image processing. Companies have been experimenting with combining sophisticated algorithms with image processing techniques that have emerged in the past ten years to understand more about what an image or a video of a person's face tells us about how he/she is feeling and not just that but also showing the probabilities of mixed emotions a face could has.
