@@ -41,12 +41,14 @@ Emotion recognition is a technique used in software that allows a program to "re
 The program will creat a window to display the scene capture by webcamera and a window representing the probabilities of detected emotions.
 
 > Demo
--run real_time_video.py
+
+python real_time_video.py
 
 You can just use this with the provided pretrained model i have included in the path written in the code file, i have choosen this specificaly since it scores the best accuracy, feel free to choose any but in this case you have to run the later file train_emotion_classifier
 ## If you just want to run this demo instead of training the model from scaratch, the following content can be skipped
 > Train
--run train_emotion_classifier
+
+python train_emotion_classifier.py
 
 
 <a id="p4"></a> 
