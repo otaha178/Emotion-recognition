@@ -62,7 +62,7 @@ Download it and put the csv in fer2013/fer2013/
 
 
 # Credits
-This work is inspired from this fascinating [work](https://github.com/oarriaga/face_classification) 
+This work is inspired from this fascinating [work](https://github.com/oarriaga/face_classification) and the amazing resources of Adrian Rosebrock helped me alot!.
 
 # Ongoing 
 Draw emotions faces next to the detected face.
