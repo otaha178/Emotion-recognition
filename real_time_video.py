@@ -48,6 +48,7 @@ while True:
         preds = emotion_classifier.predict(roi)[0]
         emotion_probability = np.max(preds)
         label = EMOTIONS[preds.argmax()]
+    else: continue
 
  
     for (i, (emotion, prob)) in enumerate(zip(EMOTIONS, preds)):
