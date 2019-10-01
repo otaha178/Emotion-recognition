@@ -45,10 +45,10 @@ The program will creat a window to display the scene capture by webcamera and a 
 python real_time_video.py
 
 You can just use this with the provided pretrained model i have included in the path written in the code file, i have choosen this specificaly since it scores the best accuracy, feel free to choose any but in this case you have to run the later file train_emotion_classifier
-## If you just want to run this demo, the following content can be skipped
-> Train
+> If you just want to run this demo, the following content can be skipped
+- Train
 
-python train_emotion_classifier.py
+- python train_emotion_classifier.py
 
 
 <a id="p4"></a> 
