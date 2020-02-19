@@ -27,13 +27,12 @@ Emotion recognition is a technique used in software that allows a program to "re
 
 <a id="p2"></a> 
 # Installations:
--keras
 
--imutils
+Install dependencies using requirements.txt
 
--cv2
-
--numpy
+```shell
+pip install -r requirements.txt
+```
 
 <a id="p3"></a> 
 # Usage:
