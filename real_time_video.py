@@ -1,7 +1,7 @@
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.preprocessing.image import img_to_array
 import imutils
 import cv2
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import numpy as np
 
 # parameters for loading data and images
