@@ -1,7 +1,7 @@
-from keras.preprocessing.image import img_to_array
+import tensorflow as tf
 import imutils
 import cv2
-from keras.models import load_model
+from tensorflow import keras
 import numpy as np
 
 # parameters for loading data and images
@@ -11,7 +11,7 @@ emotion_model_path = 'models/_mini_XCEPTION.102-0.66.hdf5'
 # hyper-parameters for bounding boxes shape
 # loading models
 face_detection = cv2.CascadeClassifier(detection_model_path)
-emotion_classifier = load_model(emotion_model_path, compile=False)
+emotion_classifier = tf.keras.models.load_model(emotion_model_path, compile=False)
 EMOTIONS = ["angry" ,"disgust","scared", "happy", "sad", "surprised",
  "neutral"]
 
@@ -41,7 +41,7 @@ while True:
         roi = gray[fY:fY + fH, fX:fX + fW]
         roi = cv2.resize(roi, (64, 64))
         roi = roi.astype("float") / 255.0
-        roi = img_to_array(roi)
+        roi = tf.keras.util.img_to_array(roi)
         roi = np.expand_dims(roi, axis=0)
         
         
