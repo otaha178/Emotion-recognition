@@ -6,7 +6,8 @@ import numpy as np
 
 # parameters for loading data and images
 detection_model_path = 'haarcascade_files/haarcascade_frontalface_default.xml'
-emotion_model_path = 'models/_mini_XCEPTION.102-0.66.hdf5'
+# emotion_model_path = 'models/_mini_XCEPTION.102-0.66.hdf5'
+emotion_model_path = 'models/my_model2.hdf5'
 
 # hyper-parameters for bounding boxes shape
 # loading models
@@ -39,10 +40,12 @@ while True:
                     # Extract the ROI of the face from the grayscale image, resize it to a fixed 28x28 pixels, and then prepare
             # the ROI for classification via the CNN
         roi = gray[fY:fY + fH, fX:fX + fW]
-        roi = cv2.resize(roi, (64, 64))
+        roi = cv2.resize(roi, (48, 48))
         roi = roi.astype("float") / 255.0
-        roi = img_to_array(roi)
-        roi = np.expand_dims(roi, axis=0)
+        # roi = img_to_array(roi)
+        roi = np.array(roi).reshape(-1, 48, 48)
+        roi = np.repeat(roi[..., np.newaxis], 3, -1)
+        # roi = np.expand_dims(roi, axis=0)
         
         
         preds = emotion_classifier.predict(roi)[0]
@@ -53,6 +56,7 @@ while True:
  
     for (i, (emotion, prob)) in enumerate(zip(EMOTIONS, preds)):
                 # construct the label text
+                print(prob, emotion)
                 text = "{}: {:.2f}%".format(emotion, prob * 100)
 
                 # draw the label + probability bar on the canvas
