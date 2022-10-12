@@ -1,4 +1,4 @@
-# Project Name : Emotion-recognition
+# Project Name : Facial Expression Detection Using Deep Learning
 # Table of Content :
 1.[Description](#p1)
 
@@ -53,11 +53,11 @@ You can just use this with the provided pretrained model i have included in the 
 <a id="p4"></a> 
 # Dataset:
 
-I have used [this](https://www.kaggle.com/c/3364/download-all) dataset
+I have used [this](https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data) dataset
 
 Download it and put the csv in fer2013/fer2013/
 
--fer2013 emotion classification test accuracy: 66%
+-fer2013 emotion classification test accuracy(Based on My Model): 39%
 
 
 # Credits
